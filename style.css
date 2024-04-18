@@ -1,0 +1,75 @@
+html, body{
+    height:100%;
+    background-color:#3B403F;
+}
+body{
+    margin:0;
+    text-align: center;
+    padding:0 30px;
+}
+/*
+=================================================
+Title
+=================================================
+*/
+.title {
+    width:600px;
+    height:250px;
+    margin:0 auto;
+}
+.title h1 {
+    text-align: center;
+    color:#00010D;
+    font-size:150px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+ }
+ .search-bar{
+    width:85%;
+ }
+ .submit-button{
+    width:15%;
+    background:#00010D;
+    color:#D9D2D0;
+ }
+ /*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear:both;
+ }
+ .bookmarks i{
+    font-size:42px;
+    margin:0 20px;
+    color:#8C8581;
+    transition:.15s;
+    vertical-align: top;
+ }
+ .bookmarks i:hover{
+    font-size:72px;
+    position:relative;
+ }
+ 
