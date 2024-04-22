@@ -15,11 +15,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <script src="myScripts.js"></script>
 
     </head>
-    <body>
-        
-        <!--title-->
+    <body onload="startTime()">
+        <!--WEATHER-->
+        <a class="weatherwidget-io" href="https://forecast7.com/en/42d07n87d79/glenview/?unit=us" data-label_1="GLENVIEW" data-label_2="WEATHER" data-theme="original" >GLENVIEW WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+        <!--TITLE-->
         <Section class="title">
             <h1>HEllO BEN!</h1>
         </Section>
@@ -28,6 +33,7 @@
             <input type="hidden" name="sitesearch" />
             <input type="text" name="q" placeholder="search..." class="search-bar"/><input type="submit" value="GO" class="submit-button">
         </form>
+        <!--BOOKMARKS-->
         <section class="bookmarks">
             <a href="https://mail.google.com" target="_blank">
                 <i class="fas fa-envelope"></i>
@@ -35,7 +41,10 @@
             <i class="fas fa-sticky-note" onclick="showNote()"></i>
             <i class="fas fa-calculator" onclick="showCalculator()"></i>
         </section>
-            
+        <textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
+
+        <!--CLOCK-->
+        <div id="clock"></div>
  
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
