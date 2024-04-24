@@ -5,12 +5,10 @@ html, body{
 body{
     margin:0;
     text-align: center;
-    padding:0 30px;
     background-color:#011120;
     background-image: url("assets/backgroundForWebsite.png");
     background-size:100% auto;
     background-position: top;
-    padding: 100px 0 0 0;
     margin: 0;
     background-repeat: no-repeat;
 }
@@ -26,7 +24,7 @@ Title
 }
 .title h1 {
     text-align: center;
-    color:#00010D;
+    color:#1EB7D9;
     font-size:150px;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
@@ -75,7 +73,7 @@ BOOKMARKS
 .bookmarks i{
    font-size:42px;
    margin:0 20px;
-   color:#000000;
+   color:#0D5B8C;
    transition:.15s;
    vertical-align: top;
 }
@@ -89,7 +87,7 @@ CLOCK
 =================================================
 */
 #clock{
-   
+   color:#0D5B8C;
    font-size:50px;
    font-family: "Jersey 10", sans-serif;
 }
@@ -112,10 +110,11 @@ POST-IT NOTE (IN CSS)
    opacity: 0;
   }
 /*
-================================================
-WEATHER
-================================================
+=================================================
+SPOTIFY
+=================================================
 */
-.weatherwidget-io{
-   
+.spotify{
+  width:600px;
+  display: inline-block;
 }
