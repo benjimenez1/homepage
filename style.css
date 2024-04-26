@@ -22,13 +22,22 @@ Title
     height:250px;
     margin:0 auto;
 }
-.title h1 {
-    text-align: center;
-    color:#1EB7D9;
-    font-size:150px;
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.title-text {
+   text-align: center;
+   color:#1EB7D9;
+   font-size:160px;
+   font-family: "Jersey 10", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   position: relative;
+   bottom: 300px;
+}
+.background-title{
+   color: #02050D;
+   font-family: "Jersey 10", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size:150px;
 }
 /*
 =================================================
